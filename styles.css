@@ -57,20 +57,6 @@ border-right: 5px solid gold;
 td:last-child {
 padding-left:20px;
 }
-
-.gold-section {
-background-color:gold;
-padding:20px;
-border-radius:10px;
-margin:20px 0;
-}
-
-.gold-section table {
-width: 100%;
-border-collapse;
-}
-
-
 a {
   color: black;
   font-weight: bold;
