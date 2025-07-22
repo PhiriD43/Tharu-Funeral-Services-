@@ -1,0 +1,82 @@
+
+body {
+  background-color: gold;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+section {
+  background-color: black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1200px;
+ 
+}
+
+video {
+   margin: 20px auto;
+   border: 5px solid gold;
+   border-radius: 10px;
+}
+
+.video-right {
+   float: right;
+   margin-left: 20px
+}
+
+header, nav, footer {
+  text-align: center;
+  color: black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: black;
+  color: white;
+  table-layout: fixed;
+}
+
+th, td {
+  border: 1px solid gold;
+  padding: 10px;
+  text-align: left;
+  width: 25px;
+}
+
+td {
+vertical-align:top;
+padding:20px;
+}
+
+td:first-child {
+border-right: 5px solid gold;
+}
+
+td:last-child {
+padding-left:20px;
+}
+
+.gold-section {
+background-color:gold;
+padding:20px;
+border-radius:10px;
+margin:20px 0;
+}
+
+.gold-section table {
+width: 100%;
+border-collapse;
+}
+
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
