@@ -57,17 +57,43 @@ border-right: 5px solid gold;
 td:last-child {
 padding-left:20px;
 }
+
+.product-table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  font-size: 14px; /* Smaller font for better fit */
+}
+
+.product-table th,
+.product-table td {
+  padding: 6px 8px; /* Reduce padding */
+  text-align: left;
+  vertical-align: top;
+}
+
+.product-table img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 a {
   color: black;
   font-weight: bold;
   text-decoration: none;
 }
 
-@media (max-width:600px){
-  td,th{
-    font-size:14px;
-  }
-}
 a:hover {
   text-decoration: underline;
+}
+@media (max-width: 480px) {
+  .product-table {
+    font-size: 12px;
+  }
+
+  .product-table img {
+    max-width: 80px;
+  }
 }
